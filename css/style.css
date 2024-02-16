@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 62.5%;
+    --fz-h2: 4.8rem;
+    --fz-p: 1.6rem;
+    --ff-primary: 'Manrope', sans-serif;
+    --ff-secondary: 'Lexend', sans-serif;
+    --fc-primary: #FDFDFD;
+    --fc-primary-secondary: #b9bdc2;
+    --fc-secondary: #292040;
+    --border-color: #7E8492;
+    --primary-color: #BB84E8;
+
+}
+
+body {
+    height: 100vh;
+    background-color: #141625;
+    font-size: 1.4rem;
+    font-family: var(--ff-primary);
+}
+
+img {
+    width: 5rem;
+}
+
+
+h1 {
+    font-size: 5.6rem;
+    line-height: 6.42rem;
+    font-family: var(--ff-secondary);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 5.2rem;
+    font-family: var(--ff-secondary);
+    color: var(--fc-secondary);
+}
+
+h3 {
+    font-size: 2.4rem;
+    color: var(--fc-primary-secondary);
+}
+
+p{
+    color: var(--fc-primary-secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
