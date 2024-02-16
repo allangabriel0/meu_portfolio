@@ -17,6 +17,8 @@
 main {
     width: 85%;
     margin: auto;
+    position: relative;
+    z-index: -1;
 }
 
 .for-me {
