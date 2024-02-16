@@ -17,6 +17,8 @@ footer {
     flex-direction: column;
     height: 45rem;
     background-color: #1f2239;
+    position: relative;
+    z-index: -1;
 }
 
 footer h3 {
