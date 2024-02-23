@@ -10,6 +10,10 @@
 
 }
 
+sub {
+    color: white ;
+}
+
 footer {
     display: flex;
     align-items: center;

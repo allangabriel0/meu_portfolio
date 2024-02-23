@@ -10,14 +10,18 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/desktop_version.css">
+    <link rel="stylesheet" href="/css/white_theme.css">
+    <link rel="shortcut icon" href="images/minha-logo.svg" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Manrope:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Uai Dev</title>
   </head>
 
-  <body>
+  <body class="white">
     <!--  MENU DE NAVEGACAO  -->
     <header>
       <nav>
@@ -29,38 +33,58 @@
         </picture>
 
         <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+          <div class="line1 line"></div>
+          <div class="line2 line"></div>
+          <div class="line3 line"></div>
         </div>
 
         <!--MENU NORMAL-->
       <div>  
         <ol class="desktop-menu">
           <li><a href="#about-me">Sobre</a></li>
-          <li id="experiencia"><a href="#sobre">Habilidades</a></li>
-          <li id="projetos"><a href="#project">Projetos</a></li>
-          <li id="contatos"><a href="#medias">Contatos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#project">Projetos</a></li>
+          <li><a href="#medias">Contatos</a></li>
         </ol>
       </div>
-
-
         <!-- MENU RESPONSIVO-->
         <div id="nav">
           <ol class="nav-list">
             <li><a href="#about-me">Sobre</a></li>
-            <li id="experiencia"><a href="#sobre">Habilidades</a></li>
-            <li id="projetos"><a href="#project">Projetos</a></li>
-            <li id="contatos"><a href="#medias">Contatos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#project">Projetos</a></li>
+            <li><a href="#medias">Contatos</a></li>
+
+
+            <!-- WHITE AND DARK MODE -->
+            <div class="dark-mode">
+              <input type="checkbox" name="change-theme" id="change-theme">
+              <label for="change-theme">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+              </label>
+            </div>
           </ol>
+
         </div>
+
+        <!-- WHITE AND DARK MODE -->
+        <div class="white-mode">
+          <input type="checkbox" name="change-theme" id="change-theme-white">
+          <label for="change-theme">
+            <i class="bi bi-sun"></i>
+            <i class="bi bi-moon"></i>
+          </label>
+        </div>
+
+
       </nav>
     </header>
 
     <main>
       <!-- SOBRE MIM -->
 
-      <section class="for-me">
+      <div class="for-me">
         <div>
           <div id="content-me">
             <section id="me">
@@ -78,13 +102,13 @@
           <div id="for">
             <p><span>Ola!</span></p>
             <p>
-              Eu sou apaixonado por superar desafios através da tecnologia.
+              Sou um entusista, e gosto de desafios através da tecnologia.
 
               Do reparo de computadores e roteadores, como um entusiasta, ao desenvolvimento frontend utilizando HTML, CSS, Javascript, e conceitos de UX/UI, busco criar layouts envolventes que aprimorem a experiência de navegação do usuário. Atualmente, sou um desenvolvedor web iniciante, concentrando-me na otimização da interatividade entre o usuário e a máquina.
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- QUEM SOU EU -->
       <section id="about-me">
@@ -94,7 +118,7 @@
 
         <div id="info" class="align-h2">
           <picture class="about-me info"  >
-            <img src="images/info-square-fill-svgrepo-com.svg" alt="" class="image-titles" />
+            <img src="images/info-square-fill-svgrepo-com.svg" alt="Minha foot de perfil, de cabelo cacheado, pele preta com tom mais claro e blusa cinza de tom medio" class="image-titles" />
           </picture>
 
         </div>
@@ -105,15 +129,17 @@
             <div id="overlay"></div>
           </div>
           <i></i>
-          <p id="sobre" >
-            Sempre fui apaixonado por tecnologia, e desde criança sonhava em trabalhar com ela. A tecnologia entrou na minha vida de forma transformadora, e me ajudou a desenvolver minhas habilidades e alcançar meus objetivos.
+
+            <p class="sobre"><span>Meu nome é Allan</span></p>
             <br>
-            Ao longo da minha trajetória, tive a oportunidade de aprender sobre diferentes áreas da tecnologia, como desenvolvimento de software, segurança da informação e inteligência artificial.
+            <p class="sobre">Sempre fui apaixonado por tecnologia, e desde criança sonhava em trabalhar com ela. A tecnologia entrou na minha vida de forma transformadora, e me ajudou a desenvolver minhas habilidades e alcançar meus objetivos.</p>
             <br>
-            Como freelancer, tenho a oportunidade de trabalhar em projetos variados e aprender coisas novas constantemente. Também tenho a flexibilidade de trabalhar de onde quiser, o que me permite conciliar os estudos e o trabalho.
+            <p class="sobre">Ao longo da minha trajetória, tive a oportunidade de aprender sobre diferentes áreas da tecnologia, como desenvolvimento de software, segurança da informação e inteligência artificial.</p>
             <br>
-            Acredito que a tecnologia tem o potencial de melhorar a vida das pessoas, e estou comprometido em usar minhas habilidades para contribuir para o desenvolvimento da sociedade.
-          </p>
+            <p class="sobre">Como freelancer, tenho a oportunidade de trabalhar em projetos variados e aprender coisas novas constantemente. Também tenho a flexibilidade de trabalhar de onde quiser, o que me permite conciliar os estudos e o trabalho.</p>
+            <br>
+            <p class="sobre">Acredito que a tecnologia tem o potencial de melhorar a vida das pessoas, e estou comprometido em usar minhas habilidades para contribuir para o desenvolvimento da sociedade.</p>
+
         </div>
       </section>
 
@@ -123,7 +149,7 @@
             <h2>SKILLS</h2>
           </div>
           <picture id="img-skills" class="image-titles">
-            <img src="/images/icons8-learning-100 (1).svg" alt="" />
+            <img src="/images/icons8-learning-100.svg" alt="" />
           </picture>
         </div>
 
@@ -135,7 +161,7 @@
               alt="Icone do HTML5"
             />
             
-            <div id="overlay-skills1">
+            <div id="overlay-skills1" class="overlay-skills">
               <p>HTML</p>
             </div>
           </div>
@@ -146,7 +172,7 @@
               src="images/skills/css3-02-svgrepo-com.svg"
               alt="Icone CSS3"
             />
-            <div id="overlay-skills2">
+            <div id="overlay-skills2" class="overlay-skills">
               <p>CSS</p>
             </div>
           </div>
@@ -156,7 +182,7 @@
               src="images/skills/javascript-155-svgrepo-com.svg"
               alt="Icone Javascript"
             />
-            <div id="overlay-skills3">
+            <div id="overlay-skills3" class="overlay-skills">
               <p>JavaScript</p>
             </div>
           </div>
@@ -166,7 +192,7 @@
               src="images/skills/git-svgrepo-com.svg"
               alt="Icone Git"
             />
-            <div id="overlay-skills4">
+            <div id="overlay-skills4" class="overlay-skills">
               <p>Git</p>
             </div>
           </div>
@@ -211,7 +237,7 @@
 
                 <div class="visit-project">
                   <a href="">Visitar site</a>
-                  <a href>Ir para Github</a>
+                  <a href="">Ir para Github</a>
                 </div>
               </div>
             </div>
@@ -250,7 +276,7 @@
 
                 <div class="visit-project">
                   <a href="">Visitar site</a>
-                  <a href>Ir para Github</a>
+                  <a href="">Ir para Github</a>
                 </div>
               </div>
             </div>
@@ -289,7 +315,7 @@
 
                 <div class="visit-project">
                   <a href="">Visitar site</a>
-                  <a href>Ir para Github</a>
+                  <a href="">Ir para Github</a>
                 </div>
               </div>
             </div>
@@ -304,9 +330,9 @@
       </section>
     </main>
 
-    <footer id="medias">
+    <footer id="medias" >
       <h3>CONTATOS</h3 >
-      <section id="social-medias">
+      <div id="social-medias">
         
         <input id="check" type="checkbox" class="checkbox">
         <label for="check" class="label_checkbox">
@@ -337,9 +363,10 @@
         ><img
           class="menu_link-img"
           src="images/social_medias/email-1-svgrepo-com.svg"
-          alt="Instagram"
+          alt="E-mail"
       /></a>
-      </section>
+
+      </div>
 
       
         <div>
@@ -347,12 +374,12 @@
             <sub>Allan Gabriel 2024&#169; Todos os direitos reservados</sub>
           </p>
         </div>
-      </div>
     </footer>
 
 
 
 
     <script src="scripts/mobile-navbar.js"></script>
+    <script src="/scripts/white_and_dark_theme.js"></script>
   </body>
 </html>
