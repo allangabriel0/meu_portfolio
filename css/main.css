@@ -197,7 +197,7 @@ main {
     border-radius: 5px;
     margin-bottom: 3rem;
     height: 50rem;
-    justify-content: space-around ;
+
 }
 
 .stacks {
@@ -250,5 +250,43 @@ main {
     margin-bottom: 10rem;
 }
 
+.project-inverse {
+    flex-direction: row-reverse !important;
+
+}
+/* BOTAO DE VEJA MAIS E VEJA MENOS */
+
+#see-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #see-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #see-less-button {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff0000; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #see-less-button:hover {
+    background-color: #cc0000; 
+  }
+
+  
 
 
+  

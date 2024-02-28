@@ -268,7 +268,7 @@
     }
 
     .info-project {
-        width: 36rem;
+        width: 44rem;
         height: 40rem;
         justify-content: space-evenly;
     }
@@ -277,6 +277,8 @@
         flex-direction: row;
         align-items: center;
         height: 45rem;
+        width: 110rem;
+        gap: 9rem;
     }
 
     .desktop-menu  {
