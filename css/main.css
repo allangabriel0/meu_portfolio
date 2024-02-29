@@ -249,11 +249,6 @@ main {
 .project3 {
     margin-bottom: 10rem;
 }
-
-.project-inverse {
-    flex-direction: row-reverse !important;
-
-}
 /* BOTAO DE VEJA MAIS E VEJA MENOS */
 
 #see-more-button {
