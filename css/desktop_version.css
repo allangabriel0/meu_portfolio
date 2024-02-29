@@ -315,6 +315,11 @@
         gap: 9rem;
     }
 
+    .project-inverse {
+    flex-direction: row-reverse !important;
+
+    }
+
     .desktop-menu  {
         display: flex;
         gap: 5rem;
@@ -362,4 +367,9 @@
         max-width: 1280px;
         margin: auto;
     }
+
+    .project-inverse {
+    flex-direction: row-reverse !important;
+
+}
 }
