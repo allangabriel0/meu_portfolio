@@ -24,6 +24,13 @@
         display: none;
     }
 
+    .background-projects {
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #my-skills {
 
         width: 100%;
@@ -73,6 +80,13 @@
         grid-gap: 2rem;
     }
 
+    .background-projects {
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #social-medias {
         display: flex;
         align-items: center;
@@ -96,10 +110,14 @@
         display: none;
     }
 
+    
     .background-projects {
         height: 80rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
+    
     .info-project  {
         width: 40rem;
         margin: auto;
