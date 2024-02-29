@@ -31,6 +31,10 @@
         justify-content: center;
     }
 
+    .project-inverse {
+        flex-direction: column;
+    }
+
     #my-skills {
 
         width: 100%;
@@ -87,6 +91,10 @@
         justify-content: center;
     }
 
+    .project-inverse {
+        flex-direction: column;
+    }
+
     #social-medias {
         display: flex;
         align-items: center;
@@ -116,6 +124,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .project-inverse {
+        flex-direction: column;
     }
     
     .info-project  {
@@ -161,6 +173,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .project-inverse {
+        flex-direction: column;
     }
 
     .image-project img {
