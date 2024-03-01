@@ -190,6 +190,12 @@
         margin: auto;
     }
 
+    #project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
     #my-skills {
         display: flex;
         justify-content: center;
